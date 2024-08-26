@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>B-10-Assignment-3-using-Tailwind & DaisyUI</title>
+    <!-- ⁡⁣⁣​‌‍‌⁡⁣⁣‍‍‍‍‍‍‍⁡⁣⁣⁢font wesome cdn⁡⁡-->
+    <script
+      src="https://kit.fontawesome.com/f39de67b04.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ⁡⁣⁣⁢​‌‍google font CDN ​⁡-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ⁡⁣⁣⁢​‌‍daisyUI & tailwind CDN ​⁡-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="font-manrope">
+    <header
+      class="bg-gradient-to-t from-[#FFFFFF] to-[#FFFFFF] w-11/12 mx-auto"
+    >
+      <!-- ‍⁡⁣⁣⁢‍‍‍‍‍nav section⁡ ⁡​-->
+      <nav class="navbar w-11/12 mx-auto">
+        <div class="navbar-start lg:flex">
+          <i
+            class="fa-solid fa-arrow-right bg-[#ABEF5F] p-2 mr-2 rounded-full -rotate-45"
+          ></i>
+
+          <h1 class="text-2xl font-extrabold">Rinterio</h1>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a class="font-semibold">Home</a></li>
+            <li><a class="">Services</a></li>
+            <li><a class="">Portfolio</a></li>
+            <li><a class="">Blogs</a></li>
+            <li><a class="">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end lg:flex">
+          <i
+            class="fa-solid fa-magnifying-glass bg-white border rounded-full p-2 mr-4"
+          ></i>
+          <i
+            class="fa-solid fa-cart-shopping bg-white border p-2 rounded-full mr-4"
+          ></i>
+          <a class="btn rounded-full bg-[#ABEF5F]"
+            >Book Consult
+            <i
+              class="fa-solid fa-arrow-right bg-black rounded-full p-2 text-white ml-2 -rotate-45"
+            ></i
+          ></a>
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            >
+              <li><a class="font-semibold">Home</a></li>
+              <li><a class="">Services</a></li>
+              <li><a class="">Portfolio</a></li>
+              <li><a class="">Blogs</a></li>
+              <li><a class="">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- ⁡⁣⁣⁢banner setion ⁡-->
+      <div class="flex justify-center">
+        <img src="/assets/banner.png" alt="image" />
+      </div>
+      <div class="w-2/4 mx-auto flex items-center lg:flex-col justify-between">
+        <h1 class="text-center text-4xl font-extrabold text-[#212121]">
+          A barn house of this design has a striking appearance
+        </h1>
+        <p class="text-[#494949] mt-2">
+          The barn house captivates with its blend of rustic charm and modern
+          sophistication, featuring weathered wood, sleek metal accents, and
+          large windows that flood the space with natural light.
+        </p>
+        <button class="btn rounded-full bg-[#D4F6AE] mt-2">
+          View Details
+          <i
+            class="fa-solid fa-arrow-right bg-[#ABEF5F] p-2 mr-2 rounded-full -rotate-45"
+          ></i>
+        </button>
+      </div>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
+</html>
